@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(207, 207, 207);
+        }
+        div {
+            position: relative;
+            padding: 20px;
+            left: 35%;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 5px;
+            height: 40vh;
+            width: 50vh;
+            border-radius: 15px;
+        }
+        button {
+            height: 5vh;
+        }
+        .tituloeventos {
+            position: relative;
+            left: 0vh;
+        }
+        input {
+            width: 50vh;
+            height: 5vh;
+        }
+        .eventos {
+            display: grid;
+            justify-content: center;
+            left: 37%;
+            margin-top: 5vh;
+            height: 65vh;
+        }
+
+        .noCuenta {
+            display: grid;
+            justify-content: center;
+            margin-top: 50px;
+            position: relative;
+            padding: 20px;
+            left: 35%;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 5px;
+            height: 15vh;
+            width: 50vh;
+            border-radius: 15px;
+        }
+        .nav-panel {
+            display: grid;
+            justify-content: center;
+            position: absolute;
+            padding: 20px;
+            left: -7px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 5px;
+            height: 76.4%;
+            width: 20vh;
+            border-radius: 0px;
+        }
+        .containerlogo {
+            display: grid;
+            justify-content: center;
+            position: relative;
+            padding: 20px;
+            left: -7px;
+            top: -7px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 5px;
+            height: 0%;
+            width: 98.7%;
+            border-radius: 0px;
+        }
+        .logo {
+            position: absolute;
+            top: 5%;
+            margin: 5vh;
+        }
+        .bienvenida {
+            position: relative;
+            margin: 2.49vh;
+            top: 15%;
+        }
+        .cerrarSesion {
+            position: relative;
+            left: 170%;
+            bottom: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="containerlogo">
+        <h1 class="logo">TuAgenda.com</h1>
+        <h1 class="bienvenida"> Bienvenido(a) Usuario</h1>
+        <button class="cerrarSesion" onclick="cerrarSesion()">Cerrar Sesión</button>
+    </div>
+    <div class="nav-panel">
+        <button>Inicio</button>
+        <button>Crear Evento</button>
+        <button>Vista General</button>
+    </div>
+    <div class="eventos">
+        <h1 class="tituloeventos">Eventos de Hoy:</h1>
+        <ul>
+            <li>No tiene eventos programados</li>
+        </ul>
+        <button id="vercalendario" onclick="verCalendario()">Ver Calendario</button>
+    </div>
+</body>
+</html>

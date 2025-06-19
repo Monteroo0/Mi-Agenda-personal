@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(207, 207, 207);
+}
+div {
+    position: relative;
+    padding: 20px;
+    left: 35%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px;
+    height: 40vh;
+    width: 50vh;
+    border-radius: 15px;
+}
+button {
+    height: 5vh;
+}
+.logo {
+    margin-top: 10vh;
+    margin-left: 89vh;
+    margin-bottom: 5vh;
+}
+.tituloinicio {
+    position: relative;
+    left: 15vh;
+}
+input {
+    width: 50vh;
+    height: 5vh;
+}
+.iniciosesion {
+    display: grid;
+    justify-content: center;
+}
+
+.noCuenta {
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+    position: relative;
+    padding: 20px;
+    left: 35%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px;
+    height: 15vh;
+    width: 50vh;
+    border-radius: 15px;
+}
